@@ -32,7 +32,9 @@ The app has **2 pages (views)**: A landing page, and a page to show data coming 
 
 - SAM app can be redeployed if required. Please change the URL in React App in case the URL is changed.
 
-- Please let me know if you have any questions.
+
+Please let me know if you have any questions.
 
 Thank you,
+
 Shashank
