@@ -1,38 +1,38 @@
- # iHeartMedia - Music Lab - Code Challenge
+# iHeartMedia - Music Lab - Code Challenge
 
-Create a React application that shows a list of songs with their information and metrics displayed. The app should have at least **2 pages (views)**:
-A landing page, and a page to show data coming from an API.
+React application has been created that shows a list of songs with their information and metrics displayed.
 
-- Everything should be written in JavaScript / Node.
+The app has **2 pages (views)**: A landing page, and a page to show data coming from an API.
 
-- Fork this repo and share the link when you are finished!
+- Everything has been written in JavaScript / Node.
 
 ### UI Checklist
 
-- Create a React App using functional based components and hooks. No class based components, please.
+- React App using functional based components and hooks has been created. No class based components have been created.
 
-- Create 2 views ( pages ) using React Router.
+- 2 views ( pages ) have been created using React Router.
 
-- Create a page that renders a table displaying a list songs coming from the API. Each row is a song, each column is a song attribute. 
+- A page has been created that renders a table displaying a list songs coming from the API. Each row is a song, each column is a song attribute.
 
-- Employ **some** styling but it doesn't have to be much. You can use the styled-components library but do not use any other styling help.
+- Styling has been applied to both pages using CSS.
 
-- Allow the user to scroll vertically and horizontally through columns and rows that go off screen.
+- User can scroll vertically and horizontally through columns and rows that go off screen.
 
-- Allow the user to sort the order of the song rows by the column values.
+- User is allowed to sort the order of the song rows by the column values. Please click on the headers to sort.
 
-- It **does not** need to be mobile responsive.
+- App is not mobile responsive.
 
 ### API Notes
 
-Store the included JSON file in an S3 bucket and use the AWS SAM CLI with a **node.js** lambda function to serve the frontend with the data.
+- JSON file has been stored locally and read from the **node.js** lambda function that has been created to serve the frontend with the data using AWS SAM CLI.
 
-Authentication is not necessary.
+- Please note that internal server errors were encountered when reading the file from S3 using an app created using AWS SAM CLI (S3 template). Thank you for your consideration.
 
-You do not need to deploy or host this anywhere.
+- Authentication has not been applied.
 
-SAM CLI instructions: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html
+- SAM app can be redeployed if required. Please change the URL in React App in case the URL is changed.
 
-## Bonus
+- Please let me know if you have any questions.
 
-Use GraphQL and/or Typescript
+Thank you,
+Shashank
