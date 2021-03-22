@@ -8,7 +8,7 @@ The app has **2 pages (views)**: A landing page, and a page to show data coming 
 
 ### UI Checklist
 
-- React App using functional based components and hooks has been created. No class based components have been created.
+- React App using functional based components and hooks have been created. No class based components have been created.
 
 - 2 views ( pages ) have been created using React Router.
 
