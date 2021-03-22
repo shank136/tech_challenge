@@ -24,9 +24,9 @@ The app has **2 pages (views)**: A landing page, and a page to show data coming 
 
 ### API Notes
 
-- JSON file has been stored locally and read from the **node.js** lambda function that has been created to serve the frontend with the data using AWS SAM CLI.
+- JSON file has been stored locally and read from the **node.js** lambda function that has been created using AWS SAM CLI to serve the frontend with data.
 
-- Please note that internal server errors were encountered when reading the file from S3 using an app created using AWS SAM CLI (S3 template). Thank you for your consideration.
+- Please note that internal server errors were encountered when reading the file from S3, with an app created using AWS SAM CLI (S3 template). Thank you for your consideration.
 
 - Authentication has not been applied.
 
